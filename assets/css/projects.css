@@ -1,0 +1,25 @@
+#top-side-split {
+    display:inline-block;
+}
+
+#projects-text {
+    width: 40%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+#clients {
+    margin-left: 2%;
+    width: 57%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+
+#clients img {
+    object-fit: contain;
+    width: 100px;
+    height: 35px;
+    margin-right: 38px;
+    margin-bottom: 25px;
+}

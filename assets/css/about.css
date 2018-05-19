@@ -1,0 +1,125 @@
+#about {
+    display:inline-block;
+    position:relative;
+}
+
+#about-words{
+    width: 47%;
+    display:inline-block;
+}
+
+#about-pics{
+    width:46%;
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 6%;
+}
+
+#about-pics img {
+    object-fit:contain;
+    max-width:100%;
+    max-height:100%;
+    margin-bottom: 10px;
+}
+
+#about-first{
+    display:none;
+}
+
+
+@media screen and (max-width: 900px) {
+    #about-words {
+        width: 40%;
+    }
+    #about-pics {
+        width: 52%;
+    }
+    #about-pics img {
+        margin-bottom:47px;
+    }
+} 
+
+
+@media screen and (max-width: 680px) {
+    #about-words {
+        width: 100%;
+    }
+    #about-pics {
+       display:none;
+    }
+    #about-first {
+        position:relative;
+        display:inline-block;
+        text-align:center;
+        margin-top:20px;
+    }
+    #about-first img{
+        object-fit:contain;
+    }
+    #progress{
+        position:relative;
+        left:50%;
+        transform:translateX(-50%);
+    }
+} 
+
+#value-container {
+    margin-top: 25px;
+}
+
+.value {
+    width: 45%;
+    display:inline-block;
+    vertical-align:top;
+    margin-right: 4.5%;
+    margin-bottom: 10px;
+}
+
+.value img {
+    height: 30px;
+}
+
+.value-header img {
+    display:inline-block;
+    vertical-align:middle
+}
+
+.value-header b {
+    display:inline-block;
+    vertical-align:middle;
+    margin-left:5px;
+}
+
+.value .para {
+    margin-top: 10px;
+}
+
+#alumni-img {
+    width: 47%;
+    display:inline-block;
+    vertical-align:top;
+}
+
+#grad-photo {
+    object-fit:contain;
+    max-width:100%;
+    max-height:100%;
+}
+
+#alumni .para {
+    display:inline-block;
+    width: 46%;
+    vertical-align:top;
+    margin-left:6%;
+    margin-top: 0;
+}
+
+#company-logos img {
+    object-fit: contain;
+    width: 100px;
+    height: 35px;
+    margin-right: 38px;
+    margin-bottom: 25px;
+}
+
+
