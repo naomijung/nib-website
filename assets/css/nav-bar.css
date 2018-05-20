@@ -31,6 +31,7 @@
     text-decoration: none;
 }
 
+
 #nav-topbar #nav-home .nib-logo {
     object-fit:contain;
     max-height:60%;
@@ -81,6 +82,7 @@
 }
 
 #side-bar {
+    display:none;
     position:fixed;
     width: 225px;
     height: 100vh;

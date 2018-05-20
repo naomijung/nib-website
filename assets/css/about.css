@@ -116,9 +116,13 @@
 
 #company-logos img {
     object-fit: contain;
-    width: 100px;
-    height: 35px;
-    margin-right: 38px;
+    width:10%;
+    margin-left:3%;
+    margin-right:3%;
+    vertical-align:middle;
+    /* width: 100px;
+    height: 35px; */
+    /* margin-right: 38px; */
     margin-bottom: 25px;
 }
 

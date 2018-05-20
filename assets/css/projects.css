@@ -3,23 +3,53 @@
 }
 
 #projects-text {
-    width: 40%;
+    width: 50%;
     display:inline-block;
     vertical-align: top;
+}
+
+
+.service img {
+    height: 16px;
+    vertical-align:middle;
+}
+
+/* .value-header img {
+    display:inline-block;
+    vertical-align:middle
+} */
+
+.service-header b {
+    /* display:inline-block; */
+    vertical-align:middle;
+    margin-left:5px;
+}
+
+.service .para {
+    margin-top: 0px;
+    margin-bottom:30px;
+}
+
+
+#client-container {
+    margin-left: 2%;
+    width: 47%;
+    display:inline-block;
+    vertical-align: top;
+    /* background-color:pink; */
 }
 
 #clients {
-    margin-left: 2%;
-    width: 57%;
-    display:inline-block;
-    vertical-align: top;
+    margin-top:20px;
 }
-
 
 #clients img {
     object-fit: contain;
-    width: 100px;
-    height: 35px;
-    margin-right: 38px;
+    width: 20%;
+    /* height: 35px; */
+    margin-left:6%;
+    margin-right:6%;
+    /* margin-right: 38px; */
     margin-bottom: 25px;
+    vertical-align:middle;
 }
