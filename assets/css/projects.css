@@ -10,7 +10,7 @@
 
 
 .service img {
-    height: 16px;
+    height: 20px;
     vertical-align:middle;
 }
 
@@ -27,7 +27,7 @@
 
 .service .para {
     margin-top: 0px;
-    margin-bottom:30px;
+    margin-bottom:25px;
 }
 
 
